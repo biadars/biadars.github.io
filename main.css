@@ -1,18 +1,26 @@
 body {
-    font-family: "Adobe Devanagari";
-    color: #231651;
-    background: #cadfe0;
+    font-family: "Gill Sans MT";
+    color: #342A3D;
+    background: rgba(183, 133, 201, .35);
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 h1 {
-    color: #459188;
+    color: #6B567D;
 }
 
 h2 {
-    color: #2374AB;
+    color: #8C71A3;
 }
+
+h3 {
+    color: #946CA3;
+}
+
 .quote {
     font-style: italic;
+    color: #A282B0;
 }
 
 a {
@@ -21,13 +29,24 @@ a {
 }
 
 a:link {
-    color: #FF8484;
+    color: #558BBD;
 }
 
 a:visited {
-    color: #E87878;
+    color: #385C7D;
 }
 
 a:hover {
-    color: #FF9B9B;
+    color: #5B94C9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+}
+
+.item {
+    margin-bottom: 50px;
 }
