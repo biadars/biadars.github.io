@@ -1,0 +1,33 @@
+body {
+    font-family: "Adobe Devanagari";
+    color: #231651;
+    background: #cadfe0;
+}
+
+h1 {
+    color: #459188;
+}
+
+h2 {
+    color: #2374AB;
+}
+.quote {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Arial";
+}
+
+a:link {
+    color: #FF8484;
+}
+
+a:visited {
+    color: #E87878;
+}
+
+a:hover {
+    color: #FF9B9B;
+}
