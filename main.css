@@ -54,4 +54,31 @@ h3 {
   color: #A282B0;
 }
 
+.rotate-right {
+  display: inline-flex;
+  animation: rotation-right 8s infinite linear;
+}
+
+.rotate-left {
+  display: inline-flex;
+  animation: rotation-left 8s infinite linear;
+}
+
+@keyframes rotation-right {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotation-left {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
