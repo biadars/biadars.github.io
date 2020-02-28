@@ -1,0 +1,19 @@
+$body_margin: 300px;
+$background_colour: rgba(183, 133, 201, .35);
+
+body {
+  margin-left: $body_margin;
+  margin-right: $body_margin;
+  background: $background_colour;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+}
+
+.item {
+  margin-bottom: 50px;
+}

@@ -1,35 +1,57 @@
 body {
-    font-family: "Gill Sans MT";
-    color: #342A3D;
-    background: rgba(183, 133, 201, .35);
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-h1 {
-    color: #6B567D;
-}
-
-h2 {
-    color: #8C71A3;
-}
-
-h3 {
-    color: #946CA3;
-}
-
-.quote {
-    font-style: italic;
-    color: #A282B0;
+  margin-left: 300px;
+  margin-right: 300px;
+  background: rgba(183, 133, 201, 0.35);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
 }
 
 .item {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
+
+a {
+  text-decoration: none;
+  font-family: "Arial";
+}
+
+a:link {
+  color: #558BBD;
+}
+
+a:visited {
+  color: #385C7D;
+}
+
+a:hover {
+  color: #5B94C9;
+}
+
+body {
+  font-family: "Gill Sans MT";
+  color: #342A3D;
+}
+
+h1 {
+  color: #6B567D;
+}
+
+h2 {
+  color: #8C71A3;
+}
+
+h3 {
+  color: #946CA3;
+}
+
+.quote {
+  font-style: italic;
+  color: #A282B0;
+}
+
+/*# sourceMappingURL=main.css.map */

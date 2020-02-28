@@ -1,0 +1,28 @@
+$font_family: "Gill Sans MT";
+$font-color: #342A3D;
+$font-color-h1: #6B567D;
+$font-color-h2: #8C71A3;
+$font-color-h3: #946CA3;
+$font-color-quote: #A282B0;
+
+body {
+  font-family: $font_family;
+  color: $font-color
+}
+
+h1 {
+  color: $font-color-h1
+}
+
+h2 {
+  color: $font-color-h2;
+}
+
+h3 {
+  color: $font-color-h3;
+}
+
+.quote {
+  font-style: italic;
+  color: $font-color-quote;
+}
