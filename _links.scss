@@ -1,0 +1,21 @@
+$link_color_unvisited: #558BBD;
+$link_color_hover: #5B94C9;
+$link_color_visited: #385C7D;
+
+a {
+  text-decoration: none;
+  font-family: "Arial";
+}
+
+a:link {
+  color: $link_color_unvisited;
+}
+
+a:visited {
+  color: $link_color_visited;
+}
+
+a:hover {
+  color: $link_color_hover;
+}
+

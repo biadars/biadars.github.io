@@ -23,23 +23,6 @@ h3 {
     color: #A282B0;
 }
 
-a {
-    text-decoration: none;
-    font-family: "Arial";
-}
-
-a:link {
-    color: #558BBD;
-}
-
-a:visited {
-    color: #385C7D;
-}
-
-a:hover {
-    color: #5B94C9;
-}
-
 .container {
     display: flex;
     flex-direction: column;
