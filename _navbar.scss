@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #4d6d8a;
+  height: 50px;
+  align-items: center;
+}
+
+.navigation-item {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Arial";
+  color: white;
+}
+
+.navigation-item:hover {
+  background: #5e87ad;
+}

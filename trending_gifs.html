@@ -5,8 +5,17 @@
     <title>Trending GIFs</title>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body id="body">
-    <h1>Top trending GIFs</h1>
-    <script src="fetch_gifs.js"></script>
+<body>
+    <div class="navbar">
+        <a href="index.html"><span class="navigation-item">Panto</span></a>
+        <a href="trending_gifs.html"><span class="navigation-item">Gifs</span></a>
+    </div>
+    <div class="page-container">
+        <h1>Top trending GIFs</h1>
+        <p>Here are the top trending gifs, according to Giphy:</p>
+        <div class="gif-container" id="body">
+        </div>
+        <script src="fetch_gifs.js"></script>
+    </div>
 </body>
 </html>

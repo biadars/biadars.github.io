@@ -12,7 +12,10 @@ function getTopTrendingGIFs(limit) {
         for (let i = 0; i < imageUrls.length; i++) {
             const gif = document.createElement('img');
             gif.src = imageUrls[i];
-            document.getElementById('body').appendChild(gif);
+            const div = document.createElement('div');
+            div.className = 'gif';
+            div.appendChild(gif);
+            document.getElementById('body').appendChild(div);
         }
     }
 }

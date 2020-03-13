@@ -1,7 +1,11 @@
 body {
+  background: rgba(183, 133, 201, 0.35);
+  margin: 0px;
+}
+
+.page-container {
   margin-left: 300px;
   margin-right: 300px;
-  background: rgba(183, 133, 201, 0.35);
 }
 
 .container {
@@ -13,6 +17,18 @@ body {
 
 .item {
   margin-bottom: 50px;
+}
+
+.gif-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+ol li {
+  margin: 15px;
 }
 
 a {
@@ -93,6 +109,27 @@ h3 {
   to {
     transform: rotate(0deg);
   }
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #4d6d8a;
+  height: 50px;
+  align-items: center;
+}
+
+.navigation-item {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Arial";
+  color: white;
+}
+
+.navigation-item:hover {
+  background: #5e87ad;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -2,9 +2,13 @@ $body_margin: 300px;
 $background_colour: rgba(183, 133, 201, .35);
 
 body {
+  background: $background_colour;
+  margin: 0px;
+}
+
+.page-container {
   margin-left: $body_margin;
   margin-right: $body_margin;
-  background: $background_colour;
 }
 
 .container {
@@ -16,4 +20,18 @@ body {
 
 .item {
   margin-bottom: 50px;
+}
+
+.gif-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+ol {
+  li {
+    margin: 15px;
+  }
 }
