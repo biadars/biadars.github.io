@@ -1,5 +1,5 @@
 body {
-  background: rgba(183, 133, 201, 0.35);
+  background: #373f57;
   margin: 0px;
 }
 
@@ -37,37 +37,38 @@ a {
 }
 
 a:link {
-  color: #558BBD;
+  color: #03A678;
 }
 
 a:visited {
-  color: #385C7D;
+  color: #16A085;
 }
 
 a:hover {
-  color: #5B94C9;
+  color: #03A678;
 }
 
 body {
   font-family: "Gill Sans MT";
-  color: #342A3D;
+  color: #5C97BF;
+  font-size: 18px;
 }
 
 h1 {
-  color: #6B567D;
+  color: #1BA39C;
 }
 
 h2 {
-  color: #8C71A3;
+  color: #009FD4;
 }
 
 h3 {
-  color: #946CA3;
+  color: #009FD4;
 }
 
 .quote {
   font-style: italic;
-  color: #A282B0;
+  color: #009FD4;
 }
 
 .rotate-right {

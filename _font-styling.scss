@@ -1,13 +1,14 @@
 $font_family: "Gill Sans MT";
-$font-color: #342A3D;
-$font-color-h1: #6B567D;
-$font-color-h2: #8C71A3;
-$font-color-h3: #946CA3;
-$font-color-quote: #A282B0;
+$font-color: #5C97BF;
+$font-color-h1: #1BA39C;
+$font-color-h2: #009FD4;
+$font-color-h3: #009FD4;
+$font-color-quote: #009FD4;
 
 body {
   font-family: $font_family;
-  color: $font-color
+  color: $font-color;
+  font-size: 18px;
 }
 
 h1 {

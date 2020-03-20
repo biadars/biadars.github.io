@@ -12,6 +12,7 @@ function getTopTrendingGIFs(limit) {
         for (let i = 0; i < imageUrls.length; i++) {
             const gif = document.createElement('img');
             gif.src = imageUrls[i];
+            gif.alt = 'Top trending gif, number ' + (i + 1).toString();
             const div = document.createElement('div');
             div.className = 'gif';
             div.appendChild(gif);
