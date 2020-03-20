@@ -1,5 +1,29 @@
 $background_colour: #373f57;
 
+@media(max-width: 400px) {
+  .sub-container {
+    width: 80%;
+  }
+
+  .item {
+    margin-bottom: 200px;
+  }
+
+  .h1 {
+    margin-bottom: 200px;
+  }
+}
+
+@media(min-width: 401px) {
+  .sub-container {
+    width: 80%;
+  }
+
+  .item {
+    margin-bottom: 50px;
+  }
+}
+
 body {
   background: $background_colour;
   margin: 0px;
@@ -11,10 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.sub-container {
-  width: 80%;
+  width: 100%;
 }
 
 .container {
@@ -22,10 +43,6 @@ body {
   flex-direction: column;
   align-items: start;
   flex: 1;
-}
-
-.item {
-  margin-bottom: 50px;
 }
 
 .gif-container {

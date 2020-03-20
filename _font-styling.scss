@@ -5,25 +5,52 @@ $font-color-h2: #34b9db;
 $font-color-h3: #34b9db;
 $font-color-quote: #add8e6;
 
-body {
-  font-family: $font_family;
-  color: $font-color;
-  font-size: 18px;
+@media(max-width: 400px) {
+  body {
+    font-family: $font_family;
+    color: $font-color;
+    font-size: 22px;
+  }
+
+  h1 {
+    color: $font-color-h1
+  }
+
+  h2 {
+    color: $font-color-h2;
+  }
+
+  h3 {
+    color: $font-color-h3;
+  }
+
+  .quote {
+    font-style: italic;
+    color: $font-color-quote;
+  }
 }
 
-h1 {
-  color: $font-color-h1
-}
+@media(min-width: 401px) {
+  body {
+    font-family: $font_family;
+    color: $font-color;
+    font-size: 18px;
+  }
 
-h2 {
-  color: $font-color-h2;
-}
+  h1 {
+    color: $font-color-h1
+  }
 
-h3 {
-  color: $font-color-h3;
-}
+  h2 {
+    color: $font-color-h2;
+  }
 
-.quote {
-  font-style: italic;
-  color: $font-color-quote;
+  h3 {
+    color: $font-color-h3;
+  }
+
+  .quote {
+    font-style: italic;
+    color: $font-color-quote;
+  }
 }
