@@ -37,38 +37,38 @@ a {
 }
 
 a:link {
-  color: #03A678;
+  color: #f4d03f;
 }
 
 a:visited {
-  color: #16A085;
+  color: #f5d76e;
 }
 
 a:hover {
-  color: #03A678;
+  color: #ffd700;
 }
 
 body {
   font-family: "Gill Sans MT";
-  color: #5C97BF;
+  color: #81cfe0;
   font-size: 18px;
 }
 
 h1 {
-  color: #1BA39C;
+  color: #34b9db;
 }
 
 h2 {
-  color: #009FD4;
+  color: #34b9db;
 }
 
 h3 {
-  color: #009FD4;
+  color: #34b9db;
 }
 
 .quote {
   font-style: italic;
-  color: #009FD4;
+  color: #add8e6;
 }
 
 .rotate-right {
