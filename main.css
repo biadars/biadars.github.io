@@ -1,11 +1,18 @@
 body {
   background: #373f57;
   margin: 0px;
+  align-items: center;
 }
 
 .page-container {
-  margin-left: 300px;
-  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  width: 80%;
 }
 
 .container {
@@ -29,6 +36,11 @@ body {
 
 ol li {
   margin: 15px;
+}
+
+.image {
+  width: 100%;
+  max-width: 1240px;
 }
 
 a {
@@ -117,6 +129,7 @@ h3 {
   background: #4d6d8a;
   height: 50px;
   align-items: center;
+  width: 100%;
 }
 
 .navigation-item {

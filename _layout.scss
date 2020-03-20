@@ -1,14 +1,20 @@
-$body_margin: 300px;
 $background_colour: #373f57;
 
 body {
   background: $background_colour;
   margin: 0px;
+  align-items: center;
 }
 
 .page-container {
-  margin-left: $body_margin;
-  margin-right: $body_margin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  width: 80%;
 }
 
 .container {
@@ -34,4 +40,9 @@ ol {
   li {
     margin: 15px;
   }
+}
+
+.image {
+  width: 100%;
+  max-width: 1240px;
 }
